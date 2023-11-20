@@ -19,7 +19,7 @@
     <centre><img src="images/sign.jpg" alt="Home" style="width: 20%;"></centre>
     <h1>Owen Chambers</h1>
     <h1>Resume</h1>
-    <div class=center-container>
+    <div class="center-container">
     	<iframe src="OwenChambers.pdf" width="80%" height="700px">
     	</iframe>
     </div>
