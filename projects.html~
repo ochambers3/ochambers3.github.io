@@ -15,6 +15,8 @@
     </nav>
 </head>
 
+
+<!--
 <body>
     <div class="header">
         <h2>User Modeling for XAI</h2>
@@ -46,5 +48,33 @@
             Owen built 5 websites for business in his hometown and supported the business owners while they learned the
             technology.
         </p>
-    </div>
+-->
+
+
+	
+<body>
+
+<div class="project-card" onclick="toggleDescription('project1')">
+  <img src="Bernhard.jpg" alt="Project 1 Thumbnail">
+  <h3>Project 1</h3>
+  <p class="project-description" id="project1-description">Description of Project 1.</p>
+</div>
+
+<div class="project-card" onclick="toggleDescription('project2')">
+  <img src="blue.jpg.jpg" alt="Project 2 Thumbnail">
+  <h3>Project 2</h3>
+  <p class="project-description" id="project2-description">Description of Project 2.</p>
+</div>
+
+<!-- Add more project cards as needed -->
+
+<script>
+  function toggleDescription(projectId) {
+    var description = document.getElementById(projectId + '-description');
+    description.classList.toggle('show');
+  }
+</script>
+
 </body>
+</html>
+
