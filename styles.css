@@ -90,3 +90,21 @@ div {
       height: 100vh; /* Adjust the height based on your design */
 }
 
+.project-card {
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.project-description {
+  display: none;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.project-description.show {
+  display: block;
+  opacity: 1;
+}
