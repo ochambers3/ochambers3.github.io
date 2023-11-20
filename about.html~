@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owen's Website: About</title>
+    <link rel="stylesheet" href="styles.css">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="current" href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+        </ul>
+    </nav>
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+</head>
+
+<body>
+    <div>
+        <h2>Thanks for visiting my webpage</h2>
+        <p style="margin: 2% 25%;">
+	    I had the privilege of graduating with great distinction from Brandon University in 2021 while finding time to curl with 
+	    my friends, as well as participante in various clubs on campus. One of these clubs was the Brandon Enactus Club where I was able 
+	    to build websites for small businesses in my community and impart on them the knowledge to maintain these sights so they could stay up 
+	    to date after I was gone. For my thesis at BU I worked on a generative AI model that was capable of taking a classical composition and altering 
+	    it to produce unique and original music.
+        </p>
+        <p style="margin: 2% 25%;">
+	   This is my UWaterloo paragraph... 
+        </p>
+    </div>
+
+    <div class="header">
+        <h2>Here are some pictures of me</h2>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <img src="images/fam.jpg" alt="Me and my family"
+                style="width:100%">
+            <img src="images/flowerCrown.jpg" alt="Me in flower crown" style="width:100%">
+	    <img src="images/international.jpg" alt="Picture at soccer game" style="width:100%">
+    
+        </div>
+        <div class="column">
+            <img src="images/machete.jpg" alt="me with machete" style="width:100%">
+            <img src="images/MedellinSign.jpg" alt="Picture with Medellin sign"
+                style="width:100%">
+	    <img src="images/VilladeLeyva.jpg" alt="Picture at Villa de Leyva Colombia" style="width:100%">
+
+        </div>
+        <div class="column">
+            <img src="images/QuitoFam.jpg" alt="Picture with Quito family" style="width:100%">
+            <img src="images/Quillatoa.jpg" alt="Quillatoa hike picture" style="width:100%">
+	    <img src="images/rainbowM.jpg" alt="picture at rainbow mountain peru" style="width:100%">
+
+        </div>
+    </div>
+
+
+</body>
