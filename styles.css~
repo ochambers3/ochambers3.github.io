@@ -83,10 +83,9 @@ div {
     text-align: center;
 }
 
-.center-container {
+center-container {
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh; /* Adjust the height based on your design */
-}
-
+    }
