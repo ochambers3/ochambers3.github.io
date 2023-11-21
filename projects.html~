@@ -54,17 +54,37 @@
 	
 <body>
 
-<div class="project-card" onclick="toggleDescription('project1')">
-  <img src="images/Bernhard.jpg" alt="Project 1 Thumbnail" style="width: 20%;">
-  <h3>Project 1</h3>
-  <p class="project-description" id="project1-description">Description of Project 1.</p>
+<div class="project-card" onclick="toggleDescription('UserSpecific')">
+  <img src="images/userSX" alt="User-S[ecific Explanations of AI" style="width: 20%;">
+  <h3>User-Specific Explanations of AI: A User Study</h3>
+  <p class="project-description" id="UserSpecific-description">This is the description for my Thesis project.</p>
 </div>
 
-<div class="project-card" onclick="toggleDescription('project2')">
-  <img src="images/blue.jpg.jpg" alt="Project 2 Thumbnail" style="width: 20%;">
-  <h3>Project 2</h3>
-  <p class="project-description" id="project2-description">Description of Project 2.</p>
+<div class="project-card" onclick="toggleDescription('bioTech')">
+  <img src="images/crispr.ppg" alt="Bio Technology Image" style="width: 20%;">
+  <h3>Deep-learning for Biotechnology</h3>
+  <p class="project-description" id="bioTech-description">Bio Technology Description.</p>
 </div>
+
+<div class="project-card" onclick="toggleDescription('fantasyGA')">
+  <img src="images/fantasyHockey.ppg" alt="Fantasy Hockey Logo Image" style="width: 20%;">
+  <h3>Fantasy Hockey Genetic Algorithm</h3>
+  <p class="project-description" id="fantasyGA-description">Description of Fantasy Hockey GA.</p>
+</div>
+
+<div class="project-card" onclick="toggleDescription('classicalMusic')">
+  <img src="images/classicalMusic.jpeg" alt="Classical Music image" style="width: 20%;">
+  <h3>AI Generated Music</h3>
+  <p class="project-description" id="classicalMusic-description">Undergrad Thesis Project.</p>
+</div>
+
+<div class="project-card" onclick="toggleDescription('website')">
+  <img src="images/enactusBrandon.jpeg" alt="Enactus Brandon Logo" style="width: 20%;">
+  <h3>Website Creation</h3>
+  <p class="project-description" id="website-description">Description of website creation.</p>
+</div>
+
+
 
 <!-- Add more project cards as needed -->
 
