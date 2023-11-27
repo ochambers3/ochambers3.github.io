@@ -57,33 +57,32 @@
 <div class="project-card" onclick="toggleDescription('UserSpecific')">
   <img src="images/userSX.png" alt="User-S[ecific Explanations of AI" style="width: 20%;">
   <h3>User-Specific Explanations of AI: A User Study</h3>
-  <p class="project-description" id="UserSpecific-description">This is the description for my Thesis project.</p>
+  <p class="project-description" id="UserSpecific-description">It is more pertinant now than ever that people are able to understand the output that AI produces. This is true for developers but also for people with no technical background. For my thesis at the University of Waterloo I performed an extensive literature review to understand the facters that lead to a person accepting or rejecting an explanation from an AI, and then built an AI model that would predict the amount of and method of explanation that is most preferred. I tested AI against other preeddiction methods in a user study and determined that my developed method was statistically more proficient. I then developed several AI models to use the dataset collected from the user study, to gain further insights about this topic. This thesis allowed me to gain knowledge designing and running a user study, as well as information surrounding user-specific explanations of AI.</p>
 </div>
 
 <div class="project-card" onclick="toggleDescription('bioTech')">
   <img src="images/crispr.png" alt="Bio Technology Image" style="width: 20%;">
   <h3>Deep-learning for Biotechnology</h3>
-  <p class="project-description" id="bioTech-description">Bio Technology Description.</p>
+  <p class="project-description" id="bioTech-description">The CRISPR Cas9 protein is currently being used to research genome editing. This protein is capable of receiving a DNA sequence, and then locating this sequence in the genome to replace the DNA sequence with another, or to be removed all together. One of the most challenging problems involving this task is predicting when the Cas9 protein will make an incorrect edit to the genome. Current methods involve using a CNN to look at the DNA-RNA strands in small localized groups to make a prediction. In this project I used a siamese neural network which would produce an output based on the DNA, and RNA sequences seperately, and then make a prediciton based on the difference of output. This was found to be a valid method as it produced results slightly worse than the current best practice using the CNN. One of the issues with this project was that the Cas9 protein does not make mistakes very often, and as a result a result a DNN can get a very high accuracy by predicting one group (no error) every time. Investigating the trade-off between accuracy on the dataset and accuracy on a specific group still requires more investigation. The next step with this project that I would like to persue is using a transformer like BERT to view the DNA-RNA sequences as a string of letters, instead of an array of numbers to see if interpreting the data as a word can provide additional insight..</p>
 </div>
 
 <div class="project-card" onclick="toggleDescription('fantasyGA')">
   <img src="images/fantasyHockey.png" alt="Fantasy Hockey Logo Image" style="width: 20%;">
   <h3>Fantasy Hockey Genetic Algorithm</h3>
-  <p class="project-description" id="fantasyGA-description">Description of Fantasy Hockey GA.</p>
+  <p class="project-description" id="fantasyGA-description">In my fantasy hockey league, players get 6 points for a goal, 4 for an assist, 2 for any point on the power-play, and then more points for shots, blocked shots, hits, and game winning goals. This point distribution was chosen by the app we use to play, but I wasnted to know if this point distribution was exactly correct or if there was something I could exploit to help me win my league. Using the dataset of statistics from last season, I created a fantasy hockey genetic algorithm which learned playing against itself drafting players and comparing expected points. This GA started out randomly assigning a number of points to goals, assists, etc, and learned how best to weight the attributes in order to draft a winning hockey team. This taught me that goals are overvalued and assists are undervalued. I assume that this is because it is much easier to get an assist than a goal, and they are only worth two less points. One of the issues I immediately ran into is that my friends who I am playing against are picking players based on point performance. Because of this there were not as many undervalued players left available as I would have liked. However, since implementing this algorithm I have focused on selecting players who play on high scoring lines, but may not get a lot of assists. Since implementing this algorithm, at the time of this update, I am undefeated in my league.<p>
 </div>
 
 <div class="project-card" onclick="toggleDescription('classicalMusic')">
   <img src="images/classicalMusic.jpeg" alt="Classical Music image" style="width: 20%;">
   <h3>AI Generated Music</h3>
-  <p class="project-description" id="classicalMusic-description">Undergrad Thesis Project.</p>
+  <p class="project-description" id="classicalMusic-description">AI generated music continues to be a challenge that researchers have been trying to tackle for quite some time. For my thesis at Brandon University I created an AI model which could take a classical music composition, and rearrange the work using similar expresive motifes and patterns to create a unique piece of music. THis project taught me many things including the importance of planning ahead, and doing as much reserach as possible at the start of a project. Although I was very happy with the music that my AI was able to produce, it came a long way from being able to mach the masterpieces created by Bach and Mozart centuries ago. The next place I would like to take this project is taking concepts from other genres of music and incorporating them into classical pieces.</p>
 </div>
 
 <div class="project-card" onclick="toggleDescription('website')">
-  <img src="images/enactusBrandon.jpeg" alt="Enactus Brandon Logo" style="width: 20%;">
+  <img src="images/enactusBrandon.png" alt="Enactus Brandon Logo" style="width: 20%;">
   <h3>Website Creation</h3>
-  <p class="project-description" id="website-description">Description of website creation.</p>
+  <p class="project-description" id="website-description">At Brandon University, I had the pleasure of leading a team of students to better our community through building websites and creatingn online presences for small businesses. As project manager, I was able to gain useful experience interacting with business leaders, delegating tasks, and leading by example to ensure we were meeting all of our goals. This project involved meeting and working with businesses to develop target goals, and then working with my team to make these goals a reality. After we were satisfied with our work, I would hold meetings with the businesses to instruct them how to update and maintain their websites so that they would be self-sufficient after we left. This project was very rewarding as we were able to see the direct impact we were making in our community.</p>
 </div>
-
 
 
 <!-- Add more project cards as needed -->
