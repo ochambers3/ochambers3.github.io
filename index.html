@@ -4,28 +4,157 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Owen's Website: Home</title>
+    <title>Owen Chambers</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
-    <nav>
-        <ul>
-            <li><a class="current" href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-        </ul>
-    </nav>
-     <h1>Owen Chambers</h1>
-    <centre><img src="images/famjamATuw.jpg" alt="Home" style="width: 20%;"></centre>
-    <div class="center-container">
-    	<iframe src="OwenChambers.pdf" width="80%" height="800px">
-    	</iframe>
-    </div>
-    <p>
-        mr.owen.chambers@gmail.com <br>
-    </p>
+<body class="resume-page">
+    <main class="resume">
+        <header class="resume-header">
+            <h1>Owen Chambers</h1>
+            <ul class="resume-contact">
+                <li><a href="mailto:mr.owen.chambers@gmail.com">mr.owen.chambers@gmail.com</a></li>
+                <li><a href="tel:+12047400123">(204) 740-0123</a></li>
+                <li><a href="https://github.com/ochambers3">github.com/ochambers3</a></li>
+                <li><a href="https://ochambers3.github.io">ochambers3.github.io</a></li>
+                <li><a href="https://www.linkedin.com/in/owen-chambers33">LinkedIn</a></li>
+            </ul>
+            <p class="resume-pdf-link"><a href="OwenChambers.pdf">Download PDF</a></p>
+        </header>
 
+        <section>
+            <h2>Education</h2>
+            <article class="resume-entry">
+                <div class="resume-entry-header">
+                    <h3>University of Waterloo</h3>
+                    <span class="resume-meta">Waterloo, Ontario, Canada &middot; 2021&ndash;2023</span>
+                </div>
+                <p class="resume-subtitle">MMath in Computer Science &mdash; 3.7/4.0</p>
+                <p class="resume-detail">Thesis: User-specific explanations of AI systems attuned to psychological profiles: a user study.</p>
+            </article>
+            <article class="resume-entry">
+                <div class="resume-entry-header">
+                    <h3>Brandon University</h3>
+                    <span class="resume-meta">Brandon, Manitoba, Canada &middot; 2016&ndash;2021</span>
+                </div>
+                <p class="resume-subtitle">Honors B.Sc. Computer Science &mdash; 3.83/4.3</p>
+                <p class="resume-detail">Thesis: Algorithmic Composition: Generative AI for Classical Music Synthesis.</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Publications</h2>
+            <ol class="resume-publications">
+                <li>O. Chambers, R. Cohen, M. R. Grossman, L. Hebert, and E. Awad, &ldquo;Mining user study data to judge the merit of a model for supporting user-specific explanations of ai systems&rdquo;, <em>Computational Intelligence</em>, vol. 40, no. 6, e70015, 2024.</li>
+                <li>O. Chambers, &ldquo;User-specific explanations of ai systems attuned to psychological profiles: A user study&rdquo;, 2023.</li>
+                <li>O. Chambers, R. Cohen, M. R. Grossman, and Q. Chen, &ldquo;Creating a user model to support user-specific explanations of ai systems&rdquo;, in <em>Adjunct Proceedings of the 30th ACM Conference on User Modeling, Adaptation and Personalization</em>, 2022, pp. 163&ndash;166.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Research</h2>
+            <article class="resume-entry">
+                <div class="resume-entry-header">
+                    <h3>User-specific Explanations of AI Systems</h3>
+                    <span class="resume-meta">University of Waterloo Thesis</span>
+                </div>
+                <ul>
+                    <li>Designed and conducted a behavioral user study (N=150) psychometrically profiling participants to model human acceptance/rejection thresholds of AI-generated explanations.</li>
+                    <li>Trained and tested a PyTorch-based Feedforward Neural Network on the study results. This AI model yielded statistically significant results when predicting the acceptance/rejection of AI explanations.</li>
+                    <li>Applied Linear Regression, Logistic Regression, and Random Forest AI models to gain further insight into how the models predicted whether a participant would accept a given explanation.</li>
+                </ul>
+            </article>
+            <article class="resume-entry">
+                <div class="resume-entry-header">
+                    <h3>Predicting Off-target CRISPR Mutations</h3>
+                    <span class="resume-meta">Deep-Learning for Biotechnology Course Project</span>
+                </div>
+                <ul>
+                    <li>Developed a Siamese Neural Network using PyTorch to predict off-target CRISPR mutations achieving 98% accuracy improving on previous research.</li>
+                    <li>Introduced a novel dual-stream architecture that independently processes gRNA and DNA sequence strands through parallel neural networks, optimizing weight updates to significantly outperform traditional combined-dataset baselines.</li>
+                </ul>
+            </article>
+            <article class="resume-entry">
+                <div class="resume-entry-header">
+                    <h3>Tailoring Product Recommendations for Mobile Devices</h3>
+                    <span class="resume-meta">Information Retrieval Course Project</span>
+                </div>
+                <ul>
+                    <li>Created a React Native application capable of scraping Amazon and displaying product images and descriptions.</li>
+                    <li>Investigated the relationship between image size and text volume on a person&rsquo;s product preference on mobile devices. A user study was conducted with 20 participants and statistical analysis was performed on the results.</li>
+                </ul>
+            </article>
+            <article class="resume-entry">
+                <div class="resume-entry-header">
+                    <h3>Generative AI in Music Composition</h3>
+                    <span class="resume-meta">Brandon University Thesis</span>
+                </div>
+                <ul>
+                    <li>Extracted high-dimensional feature representations from classical piano compositions, utilizing vector embeddings to map variations in theme, tempo, cadence, and stylistic attributes.</li>
+                    <li>Developed a novel algorithm to arrange and improvise on these pieces to create new music based on a person&rsquo;s preferences for speed and consistency.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section>
+            <h2>Experience</h2>
+            <article class="resume-entry">
+                <div class="resume-entry-header">
+                    <h3>Software Developer</h3>
+                    <span class="resume-meta">BrainRidge Consulting Inc &middot; Nov 2024&ndash;Present</span>
+                </div>
+                <ul>
+                    <li>Developed an agentic AI orchestrator capable of spawning processes and sub-processes for a given requirement until the task was completed.</li>
+                    <li>Covered the entire software development life cycle including creating requirements from specs, integrating with MCP servers, writing, testing, and iterating on code, and performing AWS infrastructure changes.</li>
+                </ul>
+            </article>
+            <article class="resume-entry">
+                <div class="resume-entry-header">
+                    <h3>Machine Learning Contractor</h3>
+                    <span class="resume-meta">Invisible Technologies &middot; May 2024&ndash;Oct 2024</span>
+                </div>
+                <ul>
+                    <li>Fine-tuned state-of-the-art LLMs and agentic architectures for autonomous web navigation and software development, achieving a 20% benchmark accuracy improvement.</li>
+                    <li>Evaluated model performance, managed dataset curation/alignment, and engineered complex reward functions/prompts in collaboration with frontier AI research labs (OpenAI, Microsoft).</li>
+                </ul>
+            </article>
+            <article class="resume-entry">
+                <div class="resume-entry-header">
+                    <h3>Software Developer Intern</h3>
+                    <span class="resume-meta">Technology Solve &middot; Oct 2020&ndash;Jan 2021</span>
+                </div>
+                <ul>
+                    <li>Engineered relational data models and optimized search/retrieval algorithms for an inventory tracking application, minimizing database query latency.</li>
+                    <li>Analyzed web traffic patterns and executed data-driven SEO optimizations for enterprise clients (100+ employees), yielding a 12% increase in user engagement.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <ul class="resume-skills">
+                <li><strong>Languages:</strong> TypeScript, Python, JavaScript, React/React Native, SQL, HTML, CSS, Scripting</li>
+                <li><strong>Technologies:</strong> PyTorch, Scikit-learn, TensorFlow, NumPy, Pandas, AWS</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Previous site content preserved but hidden -->
+    <div id="legacy-site" hidden aria-hidden="true">
+        <nav>
+            <ul>
+                <li><a class="current" href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+        </nav>
+        <h1>Owen Chambers</h1>
+        <centre><img src="images/famjamATuw.jpg" alt="Home" style="width: 20%;"></centre>
+        <div class="center-container">
+            <iframe src="OwenChambers.pdf" width="80%" height="800px"></iframe>
+        </div>
+        <p>mr.owen.chambers@gmail.com <br></p>
+    </div>
 </body>
 
 </html>

@@ -1,4 +1,4 @@
-ul {
+#legacy-site nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -6,12 +6,12 @@ ul {
     background-color: #000000;
 }
 
-li {
+#legacy-site nav li {
     float: left;
     border-right: 1px solid #bbb;
 }
 
-li a {
+#legacy-site nav li a {
     display: block;
     color: white;
     text-align: center;
@@ -19,11 +19,11 @@ li a {
     padding: 8px;
 }
 
-li a:hover {
+#legacy-site nav li a:hover {
     background-color: rgb(171, 131, 38);
 }
 
-.current {
+#legacy-site nav .current {
     background-color: rgb(27, 208, 221);
 }
 
@@ -111,4 +111,192 @@ div {
   opacity: 1;
   max-width: 75%;
   margin: 0 auto;
+}
+
+/* Resume page */
+body.resume-page {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  color: #1a1a1a;
+  background: #fafafa;
+  line-height: 1.5;
+}
+
+body.resume-page h1,
+body.resume-page h2,
+body.resume-page h3,
+body.resume-page p,
+body.resume-page div {
+  text-align: left;
+}
+
+.resume {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 3rem;
+}
+
+.resume-header {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.resume-header h1 {
+  margin: 0 0 0.75rem;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.resume-contact {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1rem;
+  font-size: 0.9rem;
+  background: none;
+  overflow: visible;
+}
+
+.resume-contact li {
+  float: none;
+  border: none;
+}
+
+.resume-contact a {
+  display: inline;
+  color: #2a5a8a;
+  text-decoration: none;
+  padding: 0;
+  text-align: left;
+}
+
+.resume-contact a:hover {
+  background: none;
+  color: #1a3d5c;
+  text-decoration: underline;
+}
+
+.resume-pdf-link {
+  margin: 0.75rem 0 0;
+  font-size: 0.85rem;
+}
+
+.resume-pdf-link a {
+  color: #2a5a8a;
+}
+
+.resume-pdf-link a:hover {
+  color: #1a3d5c;
+}
+
+.resume section {
+  margin-bottom: 1.75rem;
+}
+
+.resume section > h2 {
+  margin: 0 0 1rem;
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #1a1a1a;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.4rem;
+}
+
+.resume-entry {
+  margin-bottom: 1.1rem;
+}
+
+.resume-entry-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.25rem 1rem;
+}
+
+.resume-entry h3 {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.resume-meta {
+  font-size: 0.85rem;
+  color: #666;
+  white-space: nowrap;
+}
+
+.resume-subtitle {
+  margin: 0.15rem 0 0;
+  font-size: 0.95rem;
+}
+
+.resume-detail {
+  margin: 0.35rem 0 0;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.resume-entry ul {
+  margin: 0.4rem 0 0;
+  padding-left: 1.2rem;
+  list-style-type: disc;
+  background: none;
+  overflow: visible;
+}
+
+.resume-entry li {
+  float: none;
+  border: none;
+  margin-bottom: 0.25rem;
+  font-size: 0.92rem;
+  color: #333;
+}
+
+.resume-skills {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: none;
+  overflow: visible;
+}
+
+.resume-skills li {
+  float: none;
+  border: none;
+  margin-bottom: 0.35rem;
+  font-size: 0.92rem;
+  color: #333;
+}
+
+.resume-publications {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.resume-publications li {
+  float: none;
+  border: none;
+  margin-bottom: 0.65rem;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  color: #333;
+}
+
+@media (max-width: 520px) {
+  .resume-entry-header {
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+
+  .resume-meta {
+    white-space: normal;
+  }
 }
